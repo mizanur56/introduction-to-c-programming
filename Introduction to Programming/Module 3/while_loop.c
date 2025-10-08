@@ -1,13 +1,11 @@
 #include<stdio.h>
-
 int main()
 {
-    int i;
-    for(i=1;i<=10;i++)
+    int i=1;
+    while(i<=10)
     {
-        // printf("I am sorry\n");
         printf("%d\n",i);
-        
+        i++;
     }
     return 0;
 }

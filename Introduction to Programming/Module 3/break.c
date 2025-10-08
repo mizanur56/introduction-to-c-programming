@@ -5,9 +5,11 @@ int main()
     int i;
     for(i=1;i<=10;i++)
     {
-        // printf("I am sorry\n");
+        if(i==5)
+        {
+            break;
+        }
         printf("%d\n",i);
-        
     }
     return 0;
 }
