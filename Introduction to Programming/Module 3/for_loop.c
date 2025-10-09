@@ -3,10 +3,10 @@
 int main()
 {
     int i;
-    for(i=1;i<=10;i++)
+    for(i=1;i<=100;i++)
     {
-        // printf("I am sorry\n");
-        printf("%d\n",i);
+        printf("I am sorry\n");
+        // printf("%d\n",i);
         
     }
     return 0;
